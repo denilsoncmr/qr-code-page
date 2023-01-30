@@ -5,9 +5,9 @@ p{
 a{
     text-decoration: none;
 }
-.container {
+main {
     width: 100vw;
-    height: 90vh;
+    min-height: 100vh;
     background: hsl(212, 45%, 89%);
     display: flex;
     flex-direction: row;
@@ -15,7 +15,8 @@ a{
     align-items: center;
 }
 .qr-box {
-    width: 15vw;
+    width: 320px;
+    max-width: 320px;
     height: auto;
     background: white;
     display: flex;
@@ -26,14 +27,14 @@ a{
     padding: 15px 15px 30px 15px;
 }
 .qr-img{
-    width: 15vw;
+    width: 320px;;
     height: auto;
     border: none;
     border-radius: 3%;
 }
 .titlle{
-    font-size: 1.2vw;
-    width: 15vw;
+    font-size: 1.8rem;
+    width: 320px;
     font-weight: 700;
     margin-top: 20px;
     text-align: center;
@@ -41,70 +42,11 @@ a{
 }
 .explain{
     color: hsl(220, 15%, 55%);
-    font-size: 0.9vw;
-    width: 15vw;
+    font-size: 1.2rem;
+    width: 320px;
     font-weight: 400;
     margin-top: 15px;
     text-align: center;
     line-height: 120%;
 
-}
-.attribution{
-    height: 10vh;
-    font-size: 15px;
-    text-align: center;
-    background: hsl(212, 45%, 80%);
-}
-.linkedin{
-    width: 1.5vw;
-    
-}
-
-@media screen and (max-width: 375px){
-    .container {
-        width: 100vw;
-        height: 90vh;
-        background: hsl(212, 45%, 89%);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    .qr-box {
-        width: 80vw;
-        margin-left: auto;
-        margin-right: auto;
-        height: auto;
-        background: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: none;
-        border-radius: 3%;
-        padding: 15px 15px 30px 15px;
-    }
-    .qr-img{
-        width: 80vw;
-        height: auto;
-        border: none;
-        border-radius: 3%;
-    }
-    .titlle{
-        font-size: 7vw;
-        width: 80vw;
-        font-weight: 700;
-        margin-top: 20px;
-        text-align: center;
-        line-height: 140%;
-    }
-    .explain{
-        color: hsl(220, 15%, 55%);
-        font-size: 5vw;
-        width: 80vw;
-        font-weight: 400;
-        margin-top: 15px;
-        text-align: center;
-        line-height: 120%;
-    
-    }
 }
