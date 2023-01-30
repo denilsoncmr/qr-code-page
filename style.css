@@ -15,7 +15,7 @@ main {
     align-items: center;
 }
 .qr-box {
-    width: 320px;
+    width: 300px;
     max-width: 320px;
     height: auto;
     background: white;
@@ -27,14 +27,15 @@ main {
     padding: 15px 15px 30px 15px;
 }
 .qr-img{
-    width: 320px;;
+    width: 300px;
+    max-width: 320px;
     height: auto;
     border: none;
     border-radius: 3%;
 }
 .titlle{
-    font-size: 1.8rem;
-    width: 320px;
+    font-size: 1.4rem;
+    width: 280px;
     font-weight: 700;
     margin-top: 20px;
     text-align: center;
@@ -42,11 +43,11 @@ main {
 }
 .explain{
     color: hsl(220, 15%, 55%);
-    font-size: 1.2rem;
-    width: 320px;
+    font-size: 1rem;
+    width: 280px;
     font-weight: 400;
     margin-top: 15px;
     text-align: center;
     line-height: 120%;
-
+    padding-bottom: 0.5rem;
 }
